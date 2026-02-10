@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Roleta de Desafios Red Bull</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1 class="title"></h1>
+
+    <div class="wheel-wrapper">
+      <div class="pointer"></div>
+
+      <img 
+        src="img/roleta.jpeg"
+        id="wheel"
+        alt="Roleta Red Bull"
+        width="360"
+        height="360"
+      >
+    </div>
+
+    <button id="spin">GIRAR</button>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <h2>Resultado</h2>
+      <p id="result"></p>
+      <button id="close">OK</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <canvas id="fireworks"></canvas>
+  
+</body>
+</html>
